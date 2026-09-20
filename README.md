@@ -1,37 +1,51 @@
-# CodeAlpha Task 1 - Iris Flower Classification
+# CodeAlpha Data Science Internship Tasks
 
-## Objective
+## Task 1 - Iris Flower Classification
 
-The objective of this task is to classify Iris flowers into three species:
+### Objective
+Build a machine learning model to classify Iris flowers into different species using flower measurements.
 
-- Setosa
-- Versicolor
-- Virginica
-
-The classification is performed using flower measurements from the Iris dataset.
-
-## Technologies Used
-
+### Technologies
 - Python
 - Scikit-learn
-- Logistic Regression
+- Machine Learning
 
-## Methodology
+### Model
+Logistic Regression
 
-1. Load the Iris dataset using Scikit-learn.
-2. Split the dataset into training and testing data.
-3. Standardize the input features.
-4. Train a Logistic Regression classification model.
-5. Predict the species of the test samples.
-6. Evaluate the model using accuracy, classification report, and confusion matrix.
+### Dataset
+Iris dataset from Scikit-learn.
 
-## Dataset
+### Evaluation
+The model is evaluated using accuracy, classification report, and confusion matrix.
 
-The Iris dataset is loaded directly from Scikit-learn using `load_iris()`.
+---
 
-## How to Run
+## Task 2 - Unemployment Analysis with Python
 
-Install Scikit-learn:
+### Objective
+Analyze unemployment data using Python through data cleaning, exploration, visualization, and trend analysis.
 
-```bash
-pip install scikit-learn
+### Dataset
+Unemployment in India dataset.
+
+### Technologies
+- Python
+- Pandas
+- Matplotlib
+
+### Analysis Performed
+- Loaded and cleaned the dataset
+- Checked missing values
+- Converted date and unemployment rate columns
+- Calculated average unemployment rate by region
+- Visualized unemployment rates by region
+- Analyzed unemployment trends over time
+
+### Files
+- `iris_classification.py` - Task 1 machine learning code
+- `unemployment_analysis.py` - Task 2 analysis code
+- `Unemployment in India.csv` - Task 2 dataset
+
+## CodeAlpha Data Science Internship
+These projects were completed as part of the CodeAlpha Data Science Internship.
